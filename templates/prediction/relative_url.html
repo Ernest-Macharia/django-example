@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    <body>
+    <div class = "container">
+        <div class = "jumbotron">
+        <h1>Welcome to relative url</h1>
+        <a href = "{% url 'prediction:formpage' %}">formpage</a><br>
+        <a href = "{% url 'admin:index' %}">Link to admin</a><br>
+        <a href = "{% url 'index' %}">Link to home</a>
+        </div>
+    </div>
+    </body>
+    </html>
