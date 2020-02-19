@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     </head>
     <body>
+      <div class = "container">
+        {% block body_block %}
     <nav class = "navbar navbar-default navbar-static-top">
     <div class = "container">
         
@@ -23,8 +25,7 @@
         
     </div>
     </nav>
-    <div class = "container">
-        {% block body_block %}
+  
 
         {% endblock %}
     </div>
